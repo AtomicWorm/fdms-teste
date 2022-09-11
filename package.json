@@ -10,6 +10,8 @@
     "test": "test"
   },
   "dependencies": {
+    "apollo-server": "^3.10.2",
+    "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
     "core-js": "^3.8.3",
     "font-awesome": "^4.7.0",
@@ -38,9 +40,18 @@
       "parser": "@babel/eslint-parser"
     },
     "rules": {
-      "quotes": ["error", "double"],
-      "indent": ["error", "tab"],
-      "semi": ["error", "always"]
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "indent": [
+        "error",
+        "tab"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ]
     }
   },
   "browserslist": [
